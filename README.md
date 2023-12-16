@@ -11,7 +11,7 @@ bun i
 ## Run Web
 
 ```bash
-yarn start:web
+bun start:web
 ```
 
 Runs the app in the development mode.\
@@ -22,7 +22,9 @@ You may also see any lint errors in the console.
 
 ## Build extension
 
-`yarn build:extension`
+```bash
+bun build:extension
+```
 
 Create extensions builds for:
 

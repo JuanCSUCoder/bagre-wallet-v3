@@ -5,13 +5,13 @@ The open-source successor of *Salmon Wallet* after it became unsuppported by it'
 ## Installation
 
 ```bash
-bun i
+yarn install
 ```
 
 ## Run Web
 
 ```bash
-bun start:web
+yarn start:web
 ```
 
 Runs the app in the development mode.\
@@ -23,7 +23,7 @@ You may also see any lint errors in the console.
 ## Build extension
 
 ```bash
-bun build:extension
+yarn build:extension
 ```
 
 Create extensions builds for:

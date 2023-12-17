@@ -15,6 +15,8 @@ import GlobalButton from '../../component-library/Global/GlobalButton';
 import AppIcon from '../../assets/images/AppIcon.png';
 import AppTitle from '../../assets/images/AppTitle.png';
 import { AppContext } from '../../AppProvider';
+import Logo from './components/Logo';
+import BrandTitle from './components/BrandTitle';
 
 const styles = StyleSheet.create({
   appIconImage: {
@@ -48,8 +50,8 @@ const SelectAction = ({ onNext, onBack, onboarded, t }) => {
       </GlobalLayout.Header>
 
       <GlobalLayout.Inner>
-        <GlobalImage source={AppIcon} style={styles.appIconImage} />
-        <GlobalImage source={AppTitle} style={styles.appTitleImage} />
+        <Logo />
+        <BrandTitle />
       </GlobalLayout.Inner>
 
       <GlobalLayout.Footer>

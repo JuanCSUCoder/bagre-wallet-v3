@@ -11,12 +11,17 @@ const styles = StyleSheet.create({
     width: 6,
     height: 6,
   },
+  paginationDotOn: {
+    margin: 10,
+    width: 8,
+    height: 8,
+  },
 });
 
 const GlobalPageDot = ({ active }) => (
   <GlobalImage
-    source={active ? PaginationOn : PaginationOff}
-    style={styles.paginationDot}
+    source={PaginationOff}
+    style={active ? styles.paginationDotOn : styles.paginationDot}
   />
 );
 export default GlobalPageDot;

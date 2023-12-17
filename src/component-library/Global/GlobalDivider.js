@@ -7,12 +7,14 @@ import DividerM from '../../assets/images/DividerM.png';
 const styles = StyleSheet.create({
   divider: {
     marginBottom: 32,
-    width: 56,
-    height: 8,
+    width: 100,
+    height: 4,
+    backgroundColor: 'blue',
+    border: 0
   },
 });
 
 const GlobalDivider = () => (
-  <GlobalImage source={DividerM} style={styles.divider} />
+  <hr style={styles.divider}></hr>
 );
 export default GlobalDivider;

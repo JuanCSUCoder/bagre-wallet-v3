@@ -20,7 +20,14 @@ const Logo = ({ size }) => {
   const logoStyle = size === 'sm' ? styles.appLogoSm : styles.appLogo;
   return (
     <>
-      <GlobalImage source={AppIcon} style={logoStyle} />
+      <h1
+        style={{
+          fontFamily: 'sans-serif',
+          fontSize: '7rem',
+          margin: 0
+        }}>
+        🐟
+      </h1>
     </>
   );
 };

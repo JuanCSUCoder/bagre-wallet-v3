@@ -208,13 +208,13 @@
     "onboarding": {
       "titleOnboarded": "Nueva Cuenta",
       "titleWelcome": "Bienvenidx",
-      "title1": "Bienvenido a Salmon!",
-      "content1": "Your all-in-one & open-source wallet\nfor the crypto space",
-      "title2": "Keep the control\nof your tokens",
+      "title1": "Bienvenido a Bagre!",
+      "content1": "Tu billetera todo-en-uno y de código abierto\npara el espacio cripto",
+      "title2": "Manten el control\nde tus tokens",
       "content2": "All your assets, in your hands.\nWe don’t have access to them at all.",
-      "title3": "Stay tuned",
-      "content3": "Follow us at ",
-      "content3b": "@salmonwallet"
+      "title3": "Mantente al tanto",
+      "content3": "Siguenos en ",
+      "content3b": "@juancsucoder y @salmonwallet"
     },
     "pending_txs": {
       "inProgress": "En Curso",

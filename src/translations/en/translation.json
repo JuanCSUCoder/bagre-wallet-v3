@@ -225,13 +225,13 @@
     "onboarding": {
       "titleOnboarded": "Add New Account",
       "titleWelcome": "Welcome",
-      "title1": "Welcome to Salmon!",
+      "title1": "Welcome to Bagre!",
       "content1": "Your all-in-one & open-source wallet\nfor the crypto space",
       "title2": "Keep the control\nof your tokens",
       "content2": "All your assets, in your hands.\nWe don’t have access to them at all.",
       "title3": "Stay tuned",
       "content3": "Follow us at ",
-      "content3b": "@salmonwallet"
+      "content3b": "@juancsucoder and @salmonwallet"
     },
     "pending_txs": {
       "inProgress": "In Progress",

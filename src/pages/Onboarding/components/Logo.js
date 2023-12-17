@@ -24,7 +24,9 @@ const Logo = ({ size }) => {
         style={{
           fontFamily: 'sans-serif',
           fontSize: '7rem',
-          margin: 0
+          margin: 0,
+          width: 'fit-content',
+          alignSelf: 'center'
         }}>
         🐟
       </h1>

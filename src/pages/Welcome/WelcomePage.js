@@ -69,7 +69,7 @@ const WelcomePage = ({ t }) => {
             onPress={goToOnboarding}
           />
         </View>
-        <GlobalPadding size="4xl" />
+        <GlobalPadding size="2xl" />
         <Logo />
 
         <GlobalPadding size="2xl" />

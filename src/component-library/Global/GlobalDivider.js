@@ -7,8 +7,8 @@ import DividerM from '../../assets/images/DividerM.png';
 const styles = StyleSheet.create({
   divider: {
     marginBottom: 32,
-    width: 100,
-    height: 4,
+    width: 150,
+    height: 2,
     backgroundColor: 'blue',
     border: 0
   },

@@ -11,7 +11,7 @@ import { get, isNil } from 'lodash';
 import { AppContext } from '../../AppProvider';
 import TokenList from '../../features/TokenList/TokenList';
 import { useNavigation } from '../../routes/hooks';
-import { ROUTES_MAP as TOKEN_ROUTES_MAP } from '../../pages/Token/routes';
+import { ROUTES_MAP as TOKEN_ROUTES_MAP } from '../Token/routes';
 import { ROUTES_MAP as WALLET_ROUTES_MAP } from './routes';
 import {
   mergeImportedTokens,

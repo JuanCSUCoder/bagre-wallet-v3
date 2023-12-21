@@ -7008,10 +7008,10 @@ babel-preset-react-app@^10.0.1:
     babel-plugin-macros "^3.1.0"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
 
-bagre-adapter@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/bagre-adapter/-/bagre-adapter-0.1.1.tgz#596dbe7456c0aa9fa33042232024d6c7ebc7be12"
-  integrity sha512-XfMqsYYiQ1gAUYQ/ed9XDisucRJ/ukHycetykxVlPg+oeA4EfKCvpSm/3vdEVLsEN5G4HLO5bZ3RNZ1qsZ37LA==
+bagre-adapter@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/bagre-adapter/-/bagre-adapter-0.2.0.tgz#c474de1eb254eddf5cf034aacbf0372d8e484be1"
+  integrity sha512-vrPuDc9VBl9Oywj5P4f9mZPTLlkXJDl2ixFVUFIJ0dFFOO6ZZKDx+9dW0+Lu24O7xZs1LxFSgl8Krg6eb2ynNA==
   dependencies:
     "@bonfida/spl-name-service" "^2.1.0"
     "@solana/spl-token" "^0.3.9"

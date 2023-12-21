@@ -296,6 +296,8 @@ module.exports = function (webpackEnv) {
       fallback: {
         crypto: require.resolve('crypto-browserify'),
         stream: require.resolve('stream-browserify'),
+        https: require.resolve('https-browserify'),
+        http: require.resolve('stream-http'),
       },
 
       // This allows you to set a fallback for where webpack should look for modules.

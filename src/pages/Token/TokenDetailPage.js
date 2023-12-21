@@ -5,7 +5,7 @@ import React, {
   useMemo,
   useCallback,
 } from 'react';
-import { getSwitches } from '4m-wallet-adapter';
+import { getSwitches } from 'bagre-adapter';
 import { get } from 'lodash';
 
 import { AppContext } from '../../AppProvider';

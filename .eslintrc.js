@@ -3,6 +3,9 @@ module.exports = {
   extends: ['react', 'prettier'],
   parserOptions: {
     sourceType: "module",
-    ecmaVersion: 2023
+    ecmaVersion: 2023,
+    ecmaFeatures: {
+      jsx: true
+    }
   }
 };

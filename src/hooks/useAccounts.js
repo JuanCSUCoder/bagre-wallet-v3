@@ -432,7 +432,7 @@ const useAccounts = () => {
 
   const editAccount = async (
     targetId,
-    { name, avatar, newDerivedAccounts },
+    { name, avatar, newDerivedAccounts, rpcUrl },
   ) => {
     const i = accounts.findIndex(({ id }) => id === targetId);
     if (i >= 0) {
@@ -443,6 +443,9 @@ const useAccounts = () => {
       }
       if (avatar) {
         newAccount.avatar = avatar;
+      }
+      if (rpcUrl) {
+        newAccount.networksAccounts[0].rpcUrl = rpcUrl;
       }
       if (newDerivedAccounts) {
         for (const derivedAccount of newDerivedAccounts) {

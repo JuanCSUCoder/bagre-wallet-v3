@@ -445,7 +445,7 @@ const useAccounts = () => {
         newAccount.avatar = avatar;
       }
       if (rpcUrl) {
-        newAccount.networksAccounts[0].rpcUrl = rpcUrl;
+        newAccount.networksAccounts['solana-mainnet'][0].rpcUrl = rpcUrl;
       }
       if (newDerivedAccounts) {
         for (const derivedAccount of newDerivedAccounts) {

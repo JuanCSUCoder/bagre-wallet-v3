@@ -3,7 +3,7 @@ import { View } from 'react-native';
 
 import { useNavigation, withParams } from '../../routes/hooks';
 import { withTranslation } from '../../hooks/useTranslations';
-import { ROUTES_MAP as ROUTES_SETTINGS_MAP } from './routes';
+import { ROUTES_MAP, ROUTES_MAP as ROUTES_SETTINGS_MAP } from './routes';
 
 import { globalStyles } from '../../component-library/Global/theme';
 import GlobalLayout from '../../component-library/Global/GlobalLayout';
@@ -41,6 +41,8 @@ const AccountEditPage = ({ params, t }) => {
   const goToPrivateKey = () =>
     navigate(ROUTES_SETTINGS_MAP.SETTINGS_ACCOUNT_EDIT_PRIVATEKEY, { id });
 
+  const goToRPCUrl = () => navigate(ROUTES_SETTINGS_MAP.SETTINGS_ACCOUNT_EDIT_RPC, { id });
+  
   return (
     <GlobalLayout>
       <GlobalLayout.Header>
@@ -85,6 +87,12 @@ const AccountEditPage = ({ params, t }) => {
           title={t(`general.private_key`)}
           actionIcon="right"
           onPress={goToPrivateKey}
+        />
+
+        <CardButton
+          title={'RPC Url'}
+          actionIcon="right"
+          onPress={goToRPCUrl}
         />
       </GlobalLayout.Header>
     </GlobalLayout>

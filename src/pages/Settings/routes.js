@@ -22,6 +22,7 @@ import AccountEditProfileNftsPage from './AccountEditProfileNftsPage';
 import AccountEditProfileNftsDetailPage from './AccountEditProfileNftsDetailPage';
 import AccountEditProfileAvatarsPage from './AccountEditProfileAvatarsPage';
 import AccountEditPrivateKeyPage from './AccountEditPrivateKeyPage';
+import AccountEditRPCPage from './AccountEditRPCPage';
 
 export const ROUTES_MAP = {
   SETTINGS_OPTIONS: 'SETTINGS_OPTIONS',
@@ -38,6 +39,7 @@ export const ROUTES_MAP = {
   SETTINGS_ACCOUNT_EDIT_NOTIFICATIONS: 'SETTINGS_ACCOUNT_EDIT_NOTIFICATIONS',
   SETTINGS_ACCOUNT_EDIT_SEEDPHRASE: 'SETTINGS_ACCOUNT_EDIT_SEEDPHRASE',
   SETTINGS_ACCOUNT_EDIT_PRIVATEKEY: 'SETTINGS_ACCOUNT_EDIT_PRIVATEKEY',
+  SETTINGS_ACCOUNT_EDIT_RPC: 'SETTINGS_ACCOUNT_EDIT_RPC',
   SETTINGS_ADDRESSBOOK: 'SETTINGS_ADDRESSBOOK',
   SETTINGS_ADDRESSBOOK_ADD: 'SETTINGS_ADDRESSBOOK_ADD',
   SETTINGS_ADDRESSBOOK_EDIT: 'SETTINGS_ADDRESSBOOK_EDIT',
@@ -129,6 +131,14 @@ const routes = [
     path: 'accounts/:id/privatekey',
     route: '/wallet/settings/accounts/:id/privatekey',
     Component: AccountEditPrivateKeyPage,
+    default: false,
+  },
+  {
+    key: ROUTES_MAP.SETTINGS_ACCOUNT_EDIT_RPC,
+    name: 'settingsEditAccountRpc',
+    path: 'accounts/:id/rpc',
+    route: '/wallet/settings/accounts/:id/rpc',
+    Component: AccountEditRPCPage,
     default: false,
   },
   {

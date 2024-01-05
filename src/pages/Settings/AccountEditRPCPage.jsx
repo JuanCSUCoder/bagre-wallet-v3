@@ -23,7 +23,7 @@ function AccountEditRPCPage({ params, t }) {
   const [configuring, setConfiguring] = useState(false);
   console.log(accounts.find(({ id }) => id === params.id)?.networksAccounts["solana-mainnet"][0].rpcUrl);
   window.solaccount = accounts.find(({ id }) => id === params.id);
-  const [newRPCUrl, setNewRPCUrl] = useState(accounts.find(({ id }) => id === params.id)?.networksAccounts[0].rpcUrl);
+  const [newRPCUrl, setNewRPCUrl] = useState(accounts.find(({ id }) => id === params.id)?.networksAccounts["solana-mainnet"][0].rpcUrl);
 
   const configureRPC = async () => {
     setConfiguring(true);

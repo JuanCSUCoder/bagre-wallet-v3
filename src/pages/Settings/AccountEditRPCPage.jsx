@@ -50,6 +50,8 @@ function AccountEditRPCPage({ params, t }) {
 
         <GlobalInput
           placeholder={"https://api.mainnet-beta.solana.com"}
+          value={newRPCUrl}
+          setValue={setNewRPCUrl}
           autoFocus={true}
         />
       </GlobalLayout.Header>

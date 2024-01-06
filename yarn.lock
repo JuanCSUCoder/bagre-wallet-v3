@@ -6751,6 +6751,15 @@ axe-core@^4.4.3:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.6.1.tgz#79cccdee3e3ab61a8f42c458d4123a6768e6fbce"
   integrity sha512-lCZN5XRuOnpG4bpMq8v0khrWtUOn+i8lZSb6wHZH56ZfbIEv6XwJV84AAueh9/zi7qPVJ/E4yz6fmsiyOmXR4w==
 
+axios@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.1.2.tgz#8b6f6c540abf44ab98d9904e8daf55351ca4a331"
+  integrity sha512-bznQyETwElsXl2RK7HLLwb5GPpOLlycxHCtrpDR/4RqqBzjARaOTo3jz4IgtntWUYee7Ne4S8UHd92VCuzPaWA==
+  dependencies:
+    follow-redirects "^1.15.0"
+    form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
+
 axios@^1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.2.tgz#de67d42c755b571d3e698df1b6504cde9b0ee9f2"
@@ -6977,15 +6986,15 @@ babel-preset-react-app@^10.0.1:
     babel-plugin-macros "^3.1.0"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
 
-bagre-adapter@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/bagre-adapter/-/bagre-adapter-1.0.6.tgz#a93927e5cca9b56e511e7a4a5ec7fa85f8d51bf1"
-  integrity sha512-qTa343IoqAIL/IEboqsyrw8tIjt3xsc2mmdYKgznfIzvOU4Kv1OO4yigl4I1+78hzo3Jh78iSUuNB8rGu23IZw==
+bagre-adapter@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bagre-adapter/-/bagre-adapter-1.1.0.tgz#23e59c95153038fd0df4d050f4ec63e379e6fced"
+  integrity sha512-FYQA2KD+Ofio/iNa8CSjEAPncuqyOF0Oui8FltePe63kKRSM5MMGJT7mYvqyGHAeSAfzmsPho3FcKr0uz0f67g==
   dependencies:
     "@bonfida/spl-name-service" "^2.1.0"
     "@solana/spl-token" "^0.3.9"
     "@solana/web3.js" "^1.87.6"
-    axios "^1.6.2"
+    axios "1.1.2"
     bip32 "^2.0.6"
     bip39 "^3.1.0"
     bitcoinjs-lib "^6.1.5"

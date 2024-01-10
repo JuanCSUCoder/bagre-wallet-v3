@@ -9,7 +9,7 @@ import { lock, unlock } from '../utils/password';
 import stash from '../utils/stash';
 import storage from '../utils/storage';
 import STORAGE_KEYS from '../utils/storageKeys';
-import { SALMON_API_URL } from 'bagre-adapter/constants/environment';
+import { SALMON_API_URL } from 'bagre-adapter/dist/constants/environment';
 
 const getDefaultPathIndex = (account, networkId) => {
   return account.networksAccounts[networkId]?.findIndex(Boolean) || 0;
